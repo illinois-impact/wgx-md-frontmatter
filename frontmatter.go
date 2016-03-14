@@ -78,6 +78,7 @@ func init() {
 	}
 	// see syntax : https://github.com/google/re2/wiki/Syntax
 	// also the tool at : https://regex-golang.appspot.com/
+    // regexp is based on https://github.com/jxson/front-matter
 	pat := `(?m)^(` +
 		`(= yaml =|---)` +
 		`$([\s\S]*?)` +
