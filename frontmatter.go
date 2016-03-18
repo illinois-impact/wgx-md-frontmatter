@@ -44,9 +44,8 @@ func Extract(md string) string {
 	md = trimLeft(md)
 	if hasFrontMatter(md) {
 		return extract(md)
-	} else {
-		return ""
 	}
+    return ""
 }
 
 func Parse(md string) (map[string]interface{}, error) {
