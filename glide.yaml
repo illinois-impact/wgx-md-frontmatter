@@ -1,3 +1,3 @@
-package: gitlab.com/abduld/wgx-md-frontmatter
+package: src/gitlab.com/abduld/wgx-md-frontmatter
 import:
 - package: gopkg.in/yaml.v2
